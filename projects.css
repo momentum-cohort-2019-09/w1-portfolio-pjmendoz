@@ -17,18 +17,22 @@ body {
 }
 
 
-
 .center {
     background-color: rgb(255, 255, 255, 0.5); 
     padding: 50px 10px; 
-    background-position: right top; 
     margin-left: 150px; 
     margin-right: 150px; 
     min-block-size: 770px; 
 }
 
+.top {
+    margin-top: 0 auto; 
+    margin-bottom: 20px; 
+    display: flex; 
+}
+
 .top h1 {
-    float: left; 
+    margin-right: 30%; 
 }
 
 ul {
@@ -45,3 +49,16 @@ ul li a {
     text-decoration: none; 
     font-weight: 700; 
 }
+
+.stuff {
+    display: grid; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+}
+
+.items {
+    margin-right: 100px; 
+}
+
