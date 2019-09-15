@@ -22,8 +22,7 @@ body {
     background-position: right top; 
     margin-left: 150px; 
     margin-right: 150px; 
-    /* min-block-size: 770px;  */
-    min-height: 500px; 
+    min-block-size: 770px; 
 }
 
 ul {
