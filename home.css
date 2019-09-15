@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #E085BC; 
+}
+
+body {
+    background-image: url("photos/shapes_DLF.png"); 
+    background-position: center; 
+    background-attachment: scroll; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    min-height: 110px;
+    padding: 160px; 
+}
+
+.center {
+    background-color: rgb(255, 255, 255, 0.5); 
+    padding: 50px 10px; 
+    background-position: right top; 
+    margin-left: 150px; 
+    margin-right: 150px; 
+    /* min-block-size: 770px;  */
+    min-height: 500px; 
+}
+
+ul {
+    display: flex; 
+    list-style: none!important;
+    margin: 1rem 0; 
+    text-align: right; 
+    float: right; 
+}
+
+ul li a {
+    margin-right: 10px; 
+    letter-spacing: 3px; 
+    text-decoration: none; 
+    font-weight: 700; 
+}
+
+.name {
+    background-color: rgb(253, 207, 199, 0.5); 	
+    text-align: center;
+    padding: 5rem; 
+    min-width: 100px; 
+    letter-spacing: 2px; 
+}
