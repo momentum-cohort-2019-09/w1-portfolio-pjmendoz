@@ -26,6 +26,10 @@ body {
     min-block-size: 770px; 
 }
 
+.top h1 {
+    float: left; 
+}
+
 ul {
     display: flex; 
     list-style: none!important;

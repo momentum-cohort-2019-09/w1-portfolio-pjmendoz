@@ -14,16 +14,26 @@ body {
     background-size: cover; 
     min-height: 110px;
     padding: 160px; 
+    min-block-size: 900px; 
 }
 
 
 .center {
     background-color: rgb(255, 255, 255, 0.5); 
     padding: 50px 10px; 
-    background-position: right top; 
     margin-left: 150px; 
     margin-right: 150px; 
     min-block-size: 770px; 
+}
+
+.top {
+    margin-top: 0 auto; 
+    margin-bottom: 20px; 
+    display: flex; 
+}
+
+.top h1 {
+    margin-right: 30%; 
 }
 
 ul {
@@ -41,6 +51,25 @@ ul li a {
     font-weight: 700; 
 }
 
+.stuff {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 80px;  
+}
+
 .me img {
     border-radius: 50%; 
+    margin-right: 20px; 
+    float: none; 
 }
+
+.description {
+    text-align: left; 
+    line-height: 40px; 
+    clear: none; 
+}
+
+.description h1 h2 {
+    line-height: 30px; 
+}
+
