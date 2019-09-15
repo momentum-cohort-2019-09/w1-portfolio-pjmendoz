@@ -26,8 +26,14 @@ body {
     min-block-size: 770px; 
 }
 
+.top {
+    margin-top: 0 auto; 
+    margin-bottom: 20px; 
+    display: flex; 
+}
+
 .top h1 {
-    float: left; 
+    margin-right: 30%; 
 }
 
 ul {
@@ -43,4 +49,39 @@ ul li a {
     letter-spacing: 3px; 
     text-decoration: none; 
     font-weight: 700; 
+}
+
+.header {
+    clear: both; 
+    display: block; 
+}
+
+.heading h1 {
+    text-align: center; 
+    text-decoration: underline; 
+    margin-bottom: 20px; 
+}
+
+.heading ul {
+    display: block; 
+    text-align: left; 
+    margin-left: 20px; 
+}
+
+.heading ul li {
+    list-style-type: circle;
+    line-height: 20px; 
+}
+
+.resume {
+    display: block; 
+}
+
+.summary {
+    text-align: center; 
+}
+
+.career {
+    display: block; 
+    text-align: center; 
 }
