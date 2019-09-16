@@ -9,21 +9,22 @@
 body {
     background-image: url("photos/shapes_DLF.jpg"); 
     background-position: center; 
-    /* background-attachment: scroll;  */
     background-repeat: no-repeat; 
     background-size: cover; 
-    min-height: 480px;
-    min-width: 480px; 
 }
 
 .center {
-    background-color: rgb(255, 255, 255, 0.8);
-    background-position: center;  
+    background-color: rgb(255, 255, 255, 0.8); 
     padding: 50px 10px; 
-    background-position: right top; 
     margin-left: 150px; 
     margin-right: 150px; 
     min-block-size: 770px; 
+}
+
+.top {
+    margin-top: 0 auto; 
+    margin-bottom: 20px; 
+    display: flex; 
 }
 
 .top h1 {

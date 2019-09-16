@@ -9,11 +9,8 @@
 body {
     background-image: url("photos/shapes_DLF.jpg"); 
     background-position: center; 
-    /* background-attachment: scroll;  */
     background-repeat: no-repeat; 
     background-size: cover; 
-    min-height: 480px;
-    min-width: 480px; 
 }
 
 
@@ -25,6 +22,8 @@ body {
     min-block-size: 770px; 
 }
 
+
+
 .top {
     margin-top: 0 auto; 
     margin-bottom: 20px; 
@@ -32,7 +31,7 @@ body {
 }
 
 .top h1 {
-    margin-right: 20%; 
+    margin-right: 40%; 
     letter-spacing: 5px; 
 }
 
@@ -65,24 +64,31 @@ ul li a {
     margin-right: 100px; 
     margin-bottom: 40px; 
 }
+
 .photo {
-    border-style: solid; 
-    border-color: rgb(207, 142,	32);
-    border-radius: 10%; 
-    object-fit; cover; 
+    padding: 30px; 
+}
+
+.photo ul {
+    text-align: center;
+    padding: 10px; 
 }
 
 .photo img {
     border-radius: 10%; 
+    border-style: solid; 
+    border-color: rgb(207, 142,	32);
+    border-style: solid; 
+    object-fit: contain; 
+    margin-top: 0 auto; 
+    margin-bottom: 0 auto; 
 }
 
-.photo ul {
-    text-align: center; 
-}
 
 .description {
     text-align: center; 
     width: 100%; 
+    margin-top: 50px; 
 }
 
 .description h1 {
