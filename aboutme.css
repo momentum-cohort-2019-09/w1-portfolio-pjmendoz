@@ -7,14 +7,13 @@
 }
 
 body {
-    background-image: url("photos/shapes_DLF.png"); 
+    background-image: url("photos/shapes_DLF.jpg"); 
     background-position: center; 
-    background-attachment: scroll; 
+    /* background-attachment: scroll;  */
     background-repeat: no-repeat; 
     background-size: cover; 
-    min-height: 110px;
-    padding: 160px; 
-    min-block-size: 900px; 
+    min-height: 480px;
+    min-width: 480px; 
 }
 
 .center {
