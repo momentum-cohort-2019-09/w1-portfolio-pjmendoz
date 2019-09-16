@@ -56,6 +56,10 @@ body {
     display: block; 
 }
 
+.resume {
+    margin-top: 50px; 
+}
+
 .heading {
     margin-bottom: 30px; 
 }
