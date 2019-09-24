@@ -7,10 +7,7 @@
 }
 
 body {
-    background-image: url("photos/shapes_DLF.jpg"); 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
+    background-color: rgb(254, 245, 229	);
 }
 
 
@@ -19,7 +16,8 @@ body {
     padding: 50px 10px; 
     margin-left: 150px; 
     margin-right: 150px; 
-    min-block-size: 770px; 
+    min-block-size: 400px 678; 
+    
 }
 
 

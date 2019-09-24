@@ -7,10 +7,7 @@
 }
 
 body {
-    background-image: url("photos/shapes_DLF.jpg"); 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
+    background-color: rgb(254, 245, 229);
 }
 
 

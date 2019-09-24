@@ -7,19 +7,17 @@
 }
 
 body {
-    background-image: url("photos/shapes_DLF.jpg"); 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
+    background-color: rgb(254, 245, 229	);
 }
 
+
 .center {
-    background-color: rgb(255, 255, 255, 0.8); 
+    /* background-color: rgb(255, 255, 255, 0.8); 
     padding: 50px 10px; 
     margin-left: 150px; 
-    margin-right: 150px; 
-    min-block-size: 770px; 
+    margin-right: 150px;  */
 }
+
 
 .top {
     margin-top: 0 auto; 
@@ -33,11 +31,16 @@ body {
 }
 
 ul {
+    background-color: rgb(255, 255, 255, 0.8); 
+    padding: 50px 10px; 
+    margin-left: 150px; 
+    margin-right: 150px; 
     display: flex; 
     list-style: none!important;
     margin: 1rem 0; 
     text-align: right; 
     float: right; 
+
 }
 
 ul li a {
