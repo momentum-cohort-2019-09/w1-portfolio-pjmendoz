@@ -2,59 +2,68 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-    color: #E085BC; 
+    font-family: 'Pontano Sans', sans-serif;
 }
 
 body {
-    background-color: rgb(254, 245, 229	);
-}
-
-
-.center {
-    /* background-color: rgb(255, 255, 255, 0.8); 
-    padding: 50px 10px; 
-    margin-left: 150px; 
-    margin-right: 150px;  */
-}
-
-
-.top {
-    margin-top: 0 auto; 
-    margin-bottom: 20px; 
-    display: flex; 
-}
-
-.top h1 {
-    margin-right: 20%; 
-    letter-spacing: 5px; 
-}
-
-ul {
-    background-color: rgb(255, 255, 255, 0.8); 
-    padding: 50px 10px; 
-    margin-left: 150px; 
-    margin-right: 150px; 
-    display: flex; 
-    list-style: none!important;
-    margin: 1rem 0; 
-    text-align: right; 
-    float: right; 
-
-}
-
-ul li a {
-    margin-right: 10px; 
-    letter-spacing: 3px; 
-    text-decoration: none; 
-    font-weight: 700; 
+    background-color: #DBDBDA;  
 }
 
 .name {
-    background-color: rgb(253, 207, 199, 0.5); 	
-    text-align: center;
-    padding: 5rem; 
-    min-width: 100px; 
-    letter-spacing: 2px; 
-    margin-top: 80px; 
+    text-align: center; 
+    letter-spacing: 10px; 
+    font-weight: 1; 
+    color: #009278; 
+    margin-bottom: 30px; 
+    font-size: 40pt; 
+}
+
+ul {
+    display: flex; 
+    list-style: none!important;
+    justify-content: space-evenly;
+}
+
+ul li a {
+    letter-spacing: 3px; 
+    text-decoration: none; 
+    font-weight: 700; 
+    color: black; 
+}
+
+.center {
+    padding: 50px 10px; 
+    margin-left: 150px; 
+    margin-right: 150px; 
+    min-block-size: 400px 678; 
+}
+
+.stuff {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 80px;  
+}
+
+.me img {
+    border-radius: 50%; 
+    margin-right: 20px; 
+}
+
+.description {
+    text-align: left; 
+    line-height: 40px; 
+    clear: none; 
+    margin-left: 20px; 
+}
+
+.description h1 {
+    font-size: 35pt; 
+    font-weight: 1; 
+    letter-spacing: 5px; 
+    margin-bottom: 10px; 
+}
+
+.description h2 {
+    margin-bottom: 20px; 
+    letter-spacing: 5px; 
 }
