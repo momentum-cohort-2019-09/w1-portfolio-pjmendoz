@@ -68,18 +68,18 @@ body {
     justify-content: space-evenly;
 }
 
-.photo ul li {
+.photo ul li a {
     letter-spacing: 3px; 
     font-weight: 700;  
     text-decoration: none! important; 
+    color: black; 
 }
 
 .photo img {
     border-radius: 10%; 
-    border-style: solid; 
     border-color: black; 
     border-style: solid; 
-    object-fit: contain; 
+    object-fit: fill; 
     margin-top: 0 auto; 
     margin-bottom: 0 auto; 
 }
